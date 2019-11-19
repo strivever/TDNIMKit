@@ -1,0 +1,44 @@
+{
+  "name": "TDNIMKit",
+  "version": "0.1.0",
+  "summary": "striver custom NIMUIKit",
+  "homepage": "https://github.com/458362366@qq.com/TDNIMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Striver",
+  "source": {
+    "git": "https://github.com/458362366@qq.com/TDNIMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TDNIMKit/Classes/**/*",
+  "resources": "TDNIMKit/Resources/*.*",
+  "vendored_frameworks": "**/NIMSDK.framework",
+  "vendored_libraries": "TDNIMKit/NIMSDK/Libs/*.a",
+  "libraries": [
+    "sqlite3.0",
+    "z",
+    "c++"
+  ],
+  "dependencies": {
+    "M80AttributedLabel": [
+      "~> 1.9.9"
+    ],
+    "FLAnimatedImage": [
+      "~> 1.0.12"
+    ],
+    "SDWebImage": [
+      "~> 4.2.2"
+    ],
+    "Toast": [
+      "~> 3.0"
+    ],
+    "TZImagePickerController": [
+      "~> 3.2.1"
+    ]
+  }
+}

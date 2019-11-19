@@ -1,0 +1,6 @@
+framework module TDNIMKit {
+  umbrella header "TDNIMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
