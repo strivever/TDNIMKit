@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TDNIMKit_Example' do
+  pod 'TDNIMKit', :path => '../'
+
+  target 'TDNIMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
